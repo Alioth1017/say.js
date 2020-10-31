@@ -1,3 +1,5 @@
+# This is a Fork from say.js@0.16.0
+
 <img src="https://travis-ci.org/Marak/say.js.svg?branch=master" />
 
 <img src="https://github.com/Marak/say.js/raw/master/logo.png" />
@@ -5,7 +7,7 @@
 ## Installing say.js
 
 ```bash
-npm install say
+npm install @alioth_91/say
 ```
 
 
@@ -13,10 +15,10 @@ npm install say
 
 ```javascript
 // automatically pick platform
-const say = require('say')
+const say = require('@alioth_91/say')
 
 // or, override the platform
-const Say = require('say').Say
+const Say = require('@alioth_91/say').Say
 const say = new Say('darwin' || 'win32' || 'linux')
 
 // Use default system voice and speed
